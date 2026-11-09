@@ -1,0 +1,83 @@
+/*
+// Change the background color of the page body
+// Change the default text color
+
+// Customize the font family
+
+    //OPTIONAL: load in a font family from Google Fonts
+
+Add spacing (padding/margin) between sections
+
+Change the alignment of the content of one of your sections
+
+Change the font size, weight, and color of headings
+
+//Transform the style of your Name at the top of the page
+
+    OPTIONAL: add a picture of yourself to HTML and/or CSS (remember to include accessibility aspects if you add any images!)
+
+Transform the "Experience" list items into styled blocks
+Transform the style of the "Connect" links
+
+    OPTIONAL: make or use social media icons to replace your link text with images
+
+
+*/
+
+* {
+    box-sizing: border-box;
+    border: red solid 2px;
+}
+
+body {
+    border:greenyellow solid 5px;
+    background-color: rgb(229, 255, 229);
+    color: rgb(1, 63, 1);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+    border-color:darkorange;
+    height: 150px;
+    background-color: rgb(1, 63, 1);
+    color: rgb(229, 255, 229);
+    align-content: center;
+}
+
+/*contains contents above nav bar*/
+#upper-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#name {
+    font-size: 45px;
+    text-decoration: none;
+    color: rgb(229, 255, 229);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color:rgb(229, 255, 229);
+    flex: 1 1 50px;
+    text-align: center;
+}
+
+section {
+    border-color:blue;
+    padding: 0px;
+    margin: 0px;
+}
