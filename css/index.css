@@ -41,10 +41,11 @@ header {
 }
 
 h2 {
+    font-size: 24px;
+    color:rgb(229, 255, 229);
     font-weight: normal;
     background-color: rgb(1, 63, 1);
     border-radius: 10px;
-    color:rgb(229, 255, 229);
     padding: 5px 10px;
 }
 
