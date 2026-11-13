@@ -2,67 +2,104 @@
 <html lang="en">
 
     <head> 
-        
         <title>Home _ Robin Jungwirth</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <meta name="keywords" content="Robin Jungwirth, JavaScript, HTML, 
         CSS, Web Developer">
-
+        <link rel="stylesheet" href="css/index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+        </style>
     </head>
 
     <body>
-        <h1>Robin Jungwirth</h1>
-            <nav>
+        <header>
+            <div id="upper-header">
+                <a class="modak-regular" id="name" href="index.html">Robin Jungwirth</a>
+                <p>chirp chirp</p>
+            </div>
+            <nav>                
+                <a href="#about">About</a>                       
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>        
+                <a href="#projects">Projects</a>
+                <a href="#connect">Connect</a>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>About</h2>
+            <!---use wording from my article from SPC-->
+                <p>I love both human languages and programming languages 
+                    alike. I studied Spanish and Japanese before diving into
+                    coding. My goal is to make technology accessible in as many 
+                    languages as possible. I studied Java before learning 
+                    JavaScript, and now I am cursed to explain that the two are 
+                    completely separate languages until the end of time.
+                    </p>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            
+             <ul>
+                <li>
+                    <p class="exp-title-dates">
+                        <strong>Assistant Server Administrator</strong>
+                        Sep 2022 - Nov 2023</p> 
+                    <em>Saint Paul College</em>
+                    <p>Work study focused on deploying virtual machines
+                    for an introductory CSCI course via Proxmox 
+                    virtualization platform</p>
+                </li>
+                <li><p class="exp-title-dates">
+                        <strong>Full Stack JavaScript Program </strong>
+                    Aug 2026 - present</p>
+                    <em>Code The Dream</em>
+                    <p>Web development educational program in JavaScript, React.js, 
+                        and Node.js</p>
+                </li>
+                <li>
+                    <p class="exp-title-dates">
+                        <strong>Computer Programming A.A.S.</strong>
+                    Graduated May 2025</p> 
+                    <em>Saint Paul College</em>
+                    <p>Java programming emphasis with courses in
+                        data structures & algorithms and machine architecture
+                    </p>
+                </li>
+                <li>
+                    <p class="exp-title-dates">
+                        <strong>B.A. Spanish, Linguistics emphasis</strong>
+                    Graduated May 2016</p> 
+                    <em>University of Wisconsin - Eau Claire</em>
+                    <p>Japanese language and English Linguistics minors</p>
+                </li>                         
+            </ul>
+        </section>
+            
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul></ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul></ul>
+        </section>
+        
+        <section id="connect">
+            <h2>Connect</h2>
                 <ul>
                     <li>
-                        <a href="#About">About</a>
+                        <a href="https://github.com/yungrovo" 
+                        target="_blank">GitHub</a>
                     </li>
                     <li>
-                        <a href="#Experience">Experience</a>
-                    </li>
-                    <li>
-                        <a href="#Connect">Connect</a>
+                        <a href="https://www.linkedin.com/in/robin-jungwirth" target="_blank">LinkedIn</a>
                     </li>
                 </ul>
-            </nav>
-
-            <section id="About">
-                <h2>About</h2>
-                <!---use wording from my article from SPC-->
-                    <p>I love both human languages and programming languages 
-                        alike. I studied Spanish and Japanese before diving into
-                         coding. My goal is to make technology accessible in as 
-                         many languages as possible.</p>
-            </section>
-        
-            <section id="Experience">
-                <h2>Experience</h2>
-                    <ul>
-                        <li>Assistant Server Administrator - Saint Paul College: 
-                            work study focused on Proxmox virtualization 
-                            platform</li>
-                        <li>Full Stack JavaScript program - Code The Dream</li>
-                        <li>A.A.S. in Computer Programming, Java emphasis - 
-                            Saint Paul College</li>                        
-                        <li>B.A. in Spanish, linguistics emphasis with English 
-                            linguistics and Japanese language minors - 
-                            UW-Eau Claire</li>
-                    </ul>
-            </section>
-        
-            <section id="Connect">
-                <h2>Connect</h2>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/yungrovo" 
-                            target="_blank">GitHub</a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/robin-jungwirth" target="_blank">LinkedIn</a>
-                        </li>
-                    </ul>
-            </section>
+        </section>
     </body>
-
 </html>

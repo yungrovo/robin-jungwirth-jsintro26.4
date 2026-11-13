@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(229, 255, 229);
+    color: rgb(1, 63, 1);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   /* margin: 0;
+    padding: 20px;
+    */
+}
+
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+    padding: 20px 0px 0px 0px;
+    height: 150px;
+    background-color: rgb(1, 63, 1);
+    color: rgb(229, 255, 229);
+    align-content: center;
+    border-radius: 10px;
+}
+
+/*contains contents above nav bar*/
+#upper-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#name {
+    font-size: 45px;
+    text-decoration: none;
+    color: rgb(229, 255, 229);
+}
+
+h2 {
+    font-size: 24px;
+    color:rgb(229, 255, 229);
+    font-weight: normal;
+    background-color: rgb(1, 63, 1);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+a {
+    color: #078488;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 40px 0px 40px;
+}
+
+nav a {
+    color:rgb(229, 255, 229);
+    flex: 1 1 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+
+section h2 {
+    padding: 5px 30px;
+}
+
+#about p {
+    padding: 10px 30px;
+}
+
+section p, section ul {
+    font-size: 16px;
+}
+
+#experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+}
+
+#experience li {
+    flex: 1 1 400px;
+    padding: 10px;
+    border: 1px solid #9d44db;
+    border-radius: 10px;
+}
+
+.exp-title-dates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#connect ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
