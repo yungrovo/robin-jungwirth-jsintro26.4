@@ -100,6 +100,7 @@ section p, section ul {
     border-radius: 10px;
 }
 
+/*maybe change this to make it more generic for other sections?*/
 .exp-title-dates {
     display: flex;
     justify-content: space-between;
