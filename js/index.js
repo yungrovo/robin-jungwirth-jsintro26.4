@@ -14,8 +14,14 @@ let skillsSection = document.getElementById("skills");
 //query #skills section for ul instead of entire document
 let skillsList = skillsSection.querySelector("ul");
 
-skills.forEach(skill => {
+/*skills.forEach(skill => {
     let skillItem = document.createElement("li");
     skillItem.textContent = skill;
     skillsList.append(skillItem);
 });
+*/
+for (let i = 0; i < skills.length; i++) {
+    let skill = document.createElement("li");
+    skill.textContent = skills[i];
+    skillsList.appendChild(skill);
+}
