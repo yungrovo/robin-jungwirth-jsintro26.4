@@ -107,6 +107,15 @@ section p, section ul {
     align-items: center;
 }
 
+#skills ul {
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 30px;
+    list-style: none;
+}
+
 #connect ul {
     display: flex;
     gap: 16px;
