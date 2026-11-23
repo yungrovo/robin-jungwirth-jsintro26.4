@@ -25,6 +25,7 @@
                 <a href="#skills">Skills</a>        
                 <a href="#projects">Projects</a>
                 <a href="#connect">Connect</a>
+                <a href="#message-form">Leave a Message</a>
             </nav>
         </header>
 
@@ -100,6 +101,31 @@
                         <a href="https://www.linkedin.com/in/robin-jungwirth" target="_blank">LinkedIn</a>
                     </li>
                 </ul>
+        </section>
+        <section id="message-form">
+            <h2>Leave a Message</h2>
+            <form name="leave_message">
+                <div class="users-name-email">
+                    <div class="input-label">
+                        <label for="usersName">Name</label>
+                        <input type="text" name="usersName" id="usersName" required>
+                    </div>
+                    <div class="input-label">
+                        <label for="usersEmail">Email Address</label>
+                        <input type="email" name="usersEmail" id="usersEmail" required>
+                    </div>
+                </div>
+                <div class="input-label">
+                    <label for="usersMessage">Message</label>
+                    <textarea name="usersMessage" id="usersMessage" rows="7" 
+                    cols="50"required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="messages">
+            <h2>Messages</h2>
+            <ul></ul>
         </section>
         <script src="js/index.js"></script>
     </body>
